@@ -1,7 +1,6 @@
-// plugins/menu2.js
 
 let handler = async (m, { conn, usedPrefix, command }) => {
-  // جلب البيانات
+
   let name = conn.getName(m.sender);
   let user = global.db.data.users[m.sender];
   let level = user ? user.level : '0';
