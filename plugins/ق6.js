@@ -91,6 +91,6 @@ function clockString(seconds) {
 handler.help = ['menu2']
 handler.tags = ['owner']
 handler.command = /^(ق6)$/i
-handler.owner = true
+
 
 export default handler
