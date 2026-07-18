@@ -125,5 +125,4 @@ handler.before = async (m, { conn, isOwner, isAdmin, isROwner }) => {
 }
 
 handler.command = ['settings', 'اعدادات', 'الاعدادات', 'setting']
-handler.owner = true
 export default handler
